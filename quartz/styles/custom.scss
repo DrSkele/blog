@@ -1,3 +1,44 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+:root {
+    --accent: #2563EB;
+    --accent-hover: #1D4ED8;
+
+    --background-primary: #F8FAFC;
+    --background-secondary: #FFFFFF;
+
+    --text-primary: #0F172A;
+    --text-secondary: #64748B;
+
+    --border-color: #E2E8F0;
+}
+
+.dark {
+    --accent: #3B82F6;
+    --accent-hover: #60A5FA;
+
+    --background-primary: #0F172A;
+    --background-secondary: #1E293B;
+
+    --text-primary: #E2E8F0;
+    --text-secondary: #94A3B8;
+
+    --border-color: #334155;
+}
+
+/* 링크 기본 색 */
+a {
+    color: #3B82F6 !important;
+}
+
+/* 링크 hover 색 */
+a:hover {
+    color: #60A5FA !important;
+}
+
+/* 태그 / 버튼 / 인터랙티브 요소 */
+button,
+.tag,
+.badge {
+    color: #2563EB !important;
+}
