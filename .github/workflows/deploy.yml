@@ -26,6 +26,10 @@ jobs:
           cache: "npm"
 
       - run: npm ci
+      - name: Fix quartz executable permission
+        run: |
+          chmod +x ./node_modules/.bin/quartz || true
+          chmod +x ./quartz/bootstrap-cli.mjs || true
       - run: npx quartz build
 
       - uses: actions/upload-pages-artifact@v3
