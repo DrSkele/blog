@@ -1,8 +1,12 @@
 ---
 url: https://www.youtube.com/watch?v=M2LMd_ZGzDU
 publish: true
+tags:
+  - android
+  - compose
+  - article
 ---
-# Remote Compose
+# [Youtube : Is THIS the Future of Jetpack Compose UI?]([Is THIS the Future of Jetpack Compose UI?](https://www.youtube.com/watch?v=M2LMd_ZGzDU))
 
 > ["Remote Compose is framework to create UI for remote surfaces"](https://developer.android.com/jetpack/androidx/releases/compose-remote)
 
